@@ -1,0 +1,136 @@
+* {
+  @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Archivo Black', sans-serif;
+    padding: 20px;
+    background-color: #f8deea; /* Beige claro */
+    color: #333;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #7db296; /* Blanco puro */
+    padding: 10px 20px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #5F5F5F; /* Gris texto */
+  }
+  
+  .hero {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .imagen-destacada {
+    background-color: #64bc7b; /* Verde menta */
+    width: 50%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card-container {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  .card {
+    flex: 1;
+    background-color: #74aa85; /* Rosa pálido */
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .tech {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+  }
+  
+  .tech div {
+    flex: 1;
+    height: 150px;
+    background-color: #DADADA; /* Gris perla */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .box-mapa {
+    height: 200px;
+    background-color: #D6EAE3;
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  input, textarea {
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    font-family: 'Archivo Black', sans-serif;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #EB3B3B; /* Rojo acento */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Archivo Black', sans-serif;
+  }
+  
+  .box-video {
+    height: 200px;
+    background-color: #DADADA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #777;
+  }
+  .imagen-destacada {
+    background-color: #D6EAE3;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* evita que se desborde */
+  }
+  
